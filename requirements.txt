@@ -1,0 +1,13 @@
+unsloth @ git+https://github.com/unslothai/unsloth.git
+torch
+accelerate
+peft
+trl
+xformers
+bitsandbytes
+einops
+packaging
+ast
+datasets
+spacy
+torchvision

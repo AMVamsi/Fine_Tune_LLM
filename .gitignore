@@ -1,0 +1,253 @@
+# Fine-Tune LLM Project .gitignore
+# Comprehensive exclusions for Python, ML, and Research projects
+
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# Virtual Environments
+# ============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-meta/
+
+# ============================================================================
+# IDE and Editor Files
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================================
+# Jupyter Notebooks
+# ============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ============================================================================
+# Machine Learning and Data Science
+# ============================================================================
+
+# Model files and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+
+# Hugging Face cache and models
+.cache/
+cache/
+huggingface_cache/
+hf_cache/
+transformers_cache/
+models/
+*.bin
+config.json
+pytorch_model.bin
+tf_model.h5
+
+# Weights & Biases
+wandb/
+*.wandb
+
+# TensorBoard logs
+logs/
+tensorboard_logs/
+runs/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# ============================================================================
+# Data Files (Large datasets should not be in git)
+# ============================================================================
+data/
+datasets/
+*.csv
+*.json
+*.jsonl
+*.tsv
+*.txt
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Exclude sample or small config files from data exclusion
+!sample_data.csv
+!config.json
+!requirements.txt
+!README.txt
+
+# ============================================================================
+# Output and Results
+# ============================================================================
+output/
+outputs/
+results/
+experiments/
+checkpoints/
+saved_models/
+predictions/
+evaluation_results/
+inference_results/
+plots/
+figures/
+logs/
+
+# ============================================================================
+# Cache and Temporary Files
+# ============================================================================
+.cache/
+__pycache__/
+*.pyc
+tmp/
+temp/
+.tmp/
+.temp/
+*.log
+*.out
+*.err
+
+# ============================================================================
+# System and OS Files
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================================
+# Security and API Keys
+# ============================================================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+secrets.json
+api_keys.txt
+credentials.json
+
+# ============================================================================
+# Neo4j and Database Files
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
+neo4j/
+graph.db/
+
+# ============================================================================
+# Specific to this project
+# ============================================================================
+
+# MIMIC-IV data (healthcare data should never be committed)
+mimic-iv/
+mimic_iv/
+mimic*.csv
+bhc*.csv
+clinical_notes/
+patient_data/
+
+# Model outputs and fine-tuned models
+*_finetuned/
+*_outputs/
+clinical_models/
+llama2_*/
+clinical_t5_*/
+gpt4_*/
+
+# Processed datasets
+processed_data.pkl
+*_processed.csv
+*_embeddings.npy
+
+# Evaluation outputs
+evaluation_summary.csv
+all_inference_results.pkl
+inference_results_*.pkl
+bert_f1_heatmap.png
+evaluation_plots/
+
+# Pipeline logs
+pipeline_*.log
+
+# ============================================================================
+# Archive and Backup Files
+# ============================================================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.backup
+*_backup.*
+*_old.*
+
+# ============================================================================
+# Documentation builds
+# ============================================================================
+docs/_build/
+site/
+
+# ============================================================================
+# Pytest
+# ============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================================================
+# mypy
+# ============================================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json

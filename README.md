@@ -102,13 +102,15 @@ pip install unsloth trl wandb
 pip install spacy pandas ast
 pip install medcat rdflib neo4j rdflib-neo4j
 python -m spacy download en_core_web_sm
+
+```
 ##  Validation of Hypotheses
 
-**Data Filtering Improves Precision**: Case 2 achieved highest precision (0.2245)  
-**Data Augmentation Improves F1**: Case 3 achieved best overall F1 (0.2110)  
-**Quality vs Quantity Trade-off**: Results demonstrate precision-recall balance
+  **Data Filtering Improves Precision**: Case 2 achieved highest precision (0.2245)  
+  **Data Augmentation Improves F1**: Case 3 achieved best overall F1 (0.2110)  
+  **Quality vs Quantity Trade-off**: Results demonstrate precision-recall balance
 
-## 🏃‍♂️ Quick Start
+## Quick Start
 
 ### Task 1: MedCAT Integration
 ```bash

@@ -109,7 +109,7 @@ All cases use an **Alpaca-style instruction-input-response** prompt format and a
 
 ### Knowledge Graph Triple Extraction (NewsKG21)
 
-Fine-tuning **Mistral-7B-Instruct** on 1,501 samples (80/20 split) with evaluation on predicate-object pair extraction:
+Fine-tuning **Mistral-7B-Instruct** on 1,501 training samples (80/20 split; 375 test samples) with evaluation on predicate-object pair extraction:
 
 | Case | Approach | Precision | Recall | F1 Score | Characteristic |
 |:----:|----------|:---------:|:------:|:--------:|----------------|

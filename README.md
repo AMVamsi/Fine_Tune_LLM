@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace">
-  <img src="https://img.shields.io/badge/Mistral-7B-6A0DAD?style=for-the-badge&logo=openai&logoColor=white" alt="Mistral-7B">
+  <img src="https://img.shields.io/badge/Mistral-7B-6A0DAD?style=for-the-badge" alt="Mistral-7B">
   <img src="https://img.shields.io/badge/LLaMA2-13B-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="LLaMA2">
 </p>
 

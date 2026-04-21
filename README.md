@@ -16,7 +16,6 @@
   <img src="https://img.shields.io/badge/Neo4j-Knowledge Graph-008CC1?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j">
   <img src="https://img.shields.io/badge/spaCy-NLP-09A3D5?style=flat-square&logo=spacy&logoColor=white" alt="spaCy">
   <img src="https://img.shields.io/badge/MIMIC--IV-Clinical NLP-C62828?style=flat-square" alt="MIMIC-IV">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
 </p>
 
 ---
